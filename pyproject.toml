@@ -5,11 +5,14 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "chromadb>=1.1.0",
     "fastapi>=0.118.0",
     "langchain>=0.3.27",
+    "langchain-chroma>=0.2.6",
     "langchain-community>=0.3.30",
     "langchain-core>=0.3.76",
     "langchain-google-genai>=2.0.10",
+    "openai>=2.1.0",
     "pdfminer>=20191125",
     "pdfminer-six==20221105",
     "pi-heif>=1.1.1",
@@ -17,6 +20,7 @@ dependencies = [
     "pydantic-settings>=2.11.0",
     "pypdf>=6.1.1",
     "python-dotenv>=1.1.1",
+    "tiktoken>=0.11.0",
     "unstructured>=0.18.15",
     "uvicorn>=0.37.0",
 ]
