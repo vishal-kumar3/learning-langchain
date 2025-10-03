@@ -10,8 +10,13 @@ dependencies = [
     "langchain-community>=0.3.30",
     "langchain-core>=0.3.76",
     "langchain-google-genai>=2.0.10",
+    "pdfminer>=20191125",
+    "pdfminer-six==20221105",
+    "pi-heif>=1.1.1",
     "pydantic>=2.11.9",
     "pydantic-settings>=2.11.0",
+    "pypdf>=6.1.1",
     "python-dotenv>=1.1.1",
+    "unstructured>=0.18.15",
     "uvicorn>=0.37.0",
 ]
